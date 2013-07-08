@@ -16,3 +16,9 @@ ul {
 ul li {
   padding: 5px 0 5px 0;
 }
+
+#loader {
+  margin: 0 auto;
+  width: 100px;
+  height: 40px;
+}

@@ -6,6 +6,7 @@ class CreateTwitterUser < ActiveRecord::Migration
     end
 
     create_table :tweets do |t|
+      t.string :uid
       t.string :content
       t.references :twitter_user
       t.timestamps

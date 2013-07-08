@@ -1,0 +1,9 @@
+<h1>Welcome to Recent Tweets 1</h1>
+
+
+<h2> Tweets For: <%= @user.screen_name %></h2>
+<ul>
+  <% @tweets.each do |tweet| %>
+    <li><%= tweet.content %></li>
+  <% end %>
+</ul>

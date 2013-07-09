@@ -4,6 +4,11 @@
   padding: 0px 20px 20px 20px;
   border: 1px dotted black;
 }
+
+h1 {
+  text-align: center;
+}
+
 th {
   text-align: left;
 }
@@ -19,6 +24,9 @@ ul li {
 
 #loader {
   margin: 0 auto;
-  width: 100px;
   height: 40px;
+}
+
+#form_wrapper {
+  text-align: center;
 }

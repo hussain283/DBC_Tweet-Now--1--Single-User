@@ -1,6 +1,6 @@
-<h1>Welcome to Recent Tweets 1</h1>
+<h1>Welcome to Tweet Now</h1>
 
-<div id="user" data-screen-name="<%= @user.screen_name %>">
+<!-- <div id="user" data-screen-name="<%= @user.screen_name %>">
   <h2> Tweets For: <%= @user.screen_name %></h2>
   <div id="loader"></div>
   <ul>
@@ -8,4 +8,17 @@
       <li><%= tweet.content %></li>
     <% end %>
   </ul>
+</div>
+ -->
+
+<div id="form_wrapper">
+  <form id="tweet_form" action="/" method="post">
+    <textarea name="content"></textarea><br><br>
+    <input type="submit" value="Tweet!">
+  </form>
+</div>
+
+<div id="loader" style="text-align:center; display:none;">
+  <p></p>
+  <img src="ajax-loader.gif">
 </div>

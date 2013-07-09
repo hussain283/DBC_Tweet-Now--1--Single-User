@@ -38,6 +38,6 @@ require APP_ROOT.join('config', 'database')
 Twitter.configure do |config|
   config.consumer_key = 'G2wDnPyt4UIEZh1fvGgtg'
   config.consumer_secret = '2C41KE7XzJ8kKo9GYLzkFIpHsI5HSYk2THPyasRqe4'
-  config.oauth_token = '364161645-AGglWJx3TLZ0rbEO0uYvpSXF7Vle6EVYpLvf241z'
-  config.oauth_token_secret = 'vwNEFywVff33U63TD4mnOztWGoD2bw6q0hiaUVXKWA'
+  config.oauth_token = '364161645-hXQN52yUsVRS0AjdyqfgIx3aPAxjgNNw9ijSwGoV'
+  config.oauth_token_secret = 'aLofOqU5HmPhQkwFePpKjmKZe3QCJRXfFIUi4KVsxw'
 end
